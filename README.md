@@ -61,3 +61,13 @@ Also covered:
 make.fun bounty `news-image-20261122` — "Sum up 22 November's world
 news in one image". $100 prize shared by the 50 highest-ranked
 entries, judged by an AI picture editor.
+
+## Reproduce
+
+```sh
+python3 main.py
+```
+
+Tested with Python 3.12.3.
+
+The output is deterministic: running the program twice produces byte-identical output.
